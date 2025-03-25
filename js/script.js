@@ -6,3 +6,11 @@ const off = document.getElementById('front-image');
 const on = document.getElementById('back-image');
 const button = document.getElementById("onOffButton")
 
+button.addEventListener('click', function(){
+    if(off.classList.contains('d-block') ){
+        off.classList.remove("d-block")
+        off.style.display = 'none';
+        on.classList.remove("d-none")
+        on.style.display = 'block';
+    }
+});
