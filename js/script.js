@@ -2,3 +2,7 @@
 // Al click del bottone, la lampadina dovrà accendersi (dovremo quindi utilizzare l’immagine della lampadina accesa, sempre in allegato)
 // Numero minimo di push: 4
 
+const off = document.getElementById('front-image');
+const on = document.getElementById('back-image');
+const button = document.getElementById("onOffButton")
+
